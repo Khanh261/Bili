@@ -1,0 +1,117 @@
+.header {
+    height: 60px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: rgb(27, 26, 26);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 0;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.hamburgur-menu {
+    height: 24px;
+    margin-left: 37px;
+    margin-right: 24px;
+}
+
+.bilibili-logo {
+    height: 35px;
+}
+
+
+.right-section {
+    width: 250px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+
+}
+
+.create-icon {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.current-user-picture {
+    height: 32px;
+    border-radius: 16px;
+}
+
+.add-icon {
+    height: 24px;
+}
+
+.clock-icon {
+    height: 24px;
+}
+
+.create-icon-font {
+    font-size: 13px;
+}
+
+.create-icon-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(0, 0, 255);
+    border: 1px solid #4C93FF;
+    padding: 4px 9px 4px 9px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    border-radius: 12px;
+
+}
+.search-bar-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center ;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(153, 153, 153, .3);
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 24px;
+    font-size: 14px;
+}
+
+
+
+.search-icon {
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.search-button {
+    height: 30px;
+    background-color: rgb(27, 26, 26);
+    border: none;
+}
